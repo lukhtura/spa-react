@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main {
+    padding: 10px;
+}
+.header,
+.footer {
+    padding: 10px;
+    display: flex;
+}
+.logo {
+    padding-right: 30px;
+}
+.header {
+    border-bottom: 1px solid orange;
+}
+.header__list {
+    display: flex;
+    list-style: none;
+}
+.header__list li {
+    padding: 10px;
+}
+.footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    border-top: 1px solid orange;
+}
