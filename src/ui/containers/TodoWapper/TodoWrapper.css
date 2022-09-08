@@ -1,0 +1,14 @@
+.body {
+    background-color: #7df0f5;  
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    margin: auto; 
+}
+
+h1, h2 {
+    color: #ca18f7;
+}

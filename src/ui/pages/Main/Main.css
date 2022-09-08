@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+}
+
+.main-container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-header {
+    padding: 10px;
+}
+
+.main-container-image {
+    max-width: 40%;
+}
+
+.main-container-info {
+    max-width: 60%;
+    padding: 20px;
+}
+
+.my-foto {
+    height: 100vh;
+}
+
+.main-text, .skills-list {
+    padding: 0.625rem;
+    color: violet;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.25;
+    letter-spacing: .0625rem
+}
+
+.skills-list {
+    margin-left: 20px;
+}
+

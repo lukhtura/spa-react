@@ -1,0 +1,12 @@
+.contacts-container {
+    margin: 30px auto;
+    max-width: 90%;
+}
+
+.contacts-header {
+   margin-bottom: 20px; 
+}
+
+.contacts-list {
+    margin-left: 20px;
+}

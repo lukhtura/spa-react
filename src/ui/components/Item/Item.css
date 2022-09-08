@@ -1,0 +1,38 @@
+.todo-item {
+    display: flex;
+    background-color: #ffaaf2;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid;
+    margin-top: 5px;
+    align-items: center;
+}
+
+
+.todo-item-desc {
+    background-color: #ffaaf2;
+    max-width: 500px;
+    margin: 0 10px;
+    flex-grow: 1;
+    padding: 0 10px;
+    border: none;
+    resize: none;
+    font-size: 1.25rem;
+}
+
+.todo-item-desc-line-through .todo-item-desc {
+    text-decoration: line-through;
+}
+
+
+.todo-label {
+    display: flex;
+    flex-grow: 1;
+}
+
+.todo-edit-input {
+    margin: 0 10px;
+    flex-grow: 1;
+    padding: 0 10px;
+    border-radius: 5px;
+}

@@ -1,0 +1,10 @@
+.header {
+    border-bottom: 1px solid orange;
+}
+.header__list {
+    display: flex;
+    list-style: none;
+}
+.header__list li {
+    padding: 20px;
+}

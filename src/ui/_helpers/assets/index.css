@@ -2,31 +2,32 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
+
+body {
+    background-image: url(./images/main-background.jpeg);
+    background-attachment: fixed;
+}
+
 .main {
     padding: 10px;
 }
+
 .header,
 .footer {
     padding: 10px;
     display: flex;
+    height: 80px;
+    background-color: #000000d6;
 }
+
 .logo {
     padding-right: 30px;
+    margin: auto 0;
+    color: #9d00ff;
 }
-.header {
-    border-bottom: 1px solid orange;
-}
-.header__list {
-    display: flex;
-    list-style: none;
-}
-.header__list li {
-    padding: 10px;
-}
-.footer {
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    border-top: 1px solid orange;
+
+li {
+    font-weight: 700;
 }
