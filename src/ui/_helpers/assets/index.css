@@ -31,3 +31,18 @@ body {
 li {
     font-weight: 700;
 }
+
+.header-light,
+.footer-light {
+    padding: 10px;
+    display: flex;
+    height: 80px;
+    background-color: #fefcfcd6;
+}
+
+.logo-light {
+    padding-right: 30px;
+    margin: auto 0;
+    color: #0e0216;
+}
+

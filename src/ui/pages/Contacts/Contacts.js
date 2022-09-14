@@ -10,7 +10,7 @@ import './Contacts.css'
 
 function Contacts() {
     const [value, setValue] = useContext(ThemeContext);
-    setValue(theme.color)
+    setValue(theme.color.first)
     return (
         <div className="contacts-container">
             <h1 className="contacts-header">Contacts</h1>

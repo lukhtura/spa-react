@@ -1,33 +1,40 @@
 //Core
 import { useState } from "react";
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { ThemeContext, theme } from '../_helpers/context/theme';
-import { routers } from "../../core/config";
+import routersList from "../../core/config";
+import ErrorBoundary from "./ErrorBoundary";
 //Components
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
-//Pages
-import Main from "../pages/Main/Main";
-import Contacts from "../pages/Contacts/Contacts";
-import Todo from "../pages/Todo";
+//Helpers
+import { ThemeContext, theme } from '../_helpers/context/theme';
 
 function App() {
     const [value, setValue] = useState(theme.color.first);
+    // const [error, setError] = useState(false);
+
+    // const handleError = () => {
+    //     setError(true)
+    // }
     return (
-        <ThemeContext.Provider value={[value, setValue]}>
-            <BrowserRouter>
-                <Header />
-                <main>
-                    <Routes>
-                        <Route path={routers.main} element={<Main/>}/>
-                        <Route path={routers.todo} element={<Todo/>}/>
-                        <Route path={routers.about} element={<Contacts/>}/>
-                    </Routes>
-                </main>
-                <Footer />
-            </BrowserRouter>
-        </ThemeContext.Provider>
-    )
+        <ErrorBoundary>
+            <ThemeContext.Provider value={[value, setValue]}>
+                <BrowserRouter>
+                {/* <button onClick={handleError}>Set error</button> */}
+                    <Header />
+                    {/* {error && { test: 'qwertyui'}} */}
+                    <main>
+                        <Routes>
+                            {routersList.map(item => (
+                                <Route key={item.path} path={item.path} element={item.component}></Route>
+                            ))}
+                        </Routes>
+                    </main>
+                    <Footer />
+                </BrowserRouter>
+            </ThemeContext.Provider>
+        </ErrorBoundary>
+    );
 };
 
 export default App;

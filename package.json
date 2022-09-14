@@ -36,6 +36,10 @@
     ]
   },
   "devDependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@mui/material": "^5.10.4",
+    "react-final-form": "^6.5.9",
     "react-router-dom": "^6.3.0"
   }
 }

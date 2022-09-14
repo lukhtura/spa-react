@@ -15,7 +15,7 @@ const Form = (props) => {
     }
 
     return (
-        <form action="#" max className="form" onSubmit={handleAdd}>
+        <form action="#" className="form" onSubmit={handleAdd}>
             <input type="text" maxLength="44" name="description" className="form-input" />
             <Button buttonText="Add"/>
         </form>

@@ -1,4 +1,4 @@
-import TodoWrapper from "../containers/TodoWapper/TodoWrapper";
+import TodoWrapper from "../../containers/TodoWapper/TodoWrapper";
 
 function Todo() {
     return (

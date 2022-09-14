@@ -2,21 +2,21 @@
     margin: 0;
 }
 
-.main-container {
+.about-container {
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
 }
 
-.main-header {
+.about-header {
     padding: 10px;
 }
 
-.main-container-image {
+.about-container-image {
     max-width: 40%;
 }
 
-.main-container-info {
+.about-container-info {
     max-width: 60%;
     padding: 20px;
 }
@@ -25,7 +25,7 @@
     height: 100vh;
 }
 
-.main-text, .skills-list {
+.about-text, .skills-list {
     padding: 0.625rem;
     color: violet;
     font-size: 1.25rem;

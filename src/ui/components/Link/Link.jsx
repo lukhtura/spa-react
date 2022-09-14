@@ -6,7 +6,7 @@ function Link(props) {
     const { children, to, color, type } = props;
     return (
         type === 'a'
-            ? <a className="link" href={to} style={{ color }}>{children}</a>
+            ? <a className="link"  href={to} style={{ color }}>{children}</a>
             : <NavLink className="link" to={to} style={{ color }}>{children}</NavLink>
     );
 };
