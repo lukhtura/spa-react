@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import routersList from "../../core/config";
-import ErrorBoundary from "./ErrorBoundary";
+import ErrorBoundary from "./ErrorBoundary/ErrorBoundary";
 //Components
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";

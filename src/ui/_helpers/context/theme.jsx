@@ -5,6 +5,6 @@ export const theme = {
         first: 'orange',
         second: 'green',
     }
-}
+};
 
 export const ThemeContext = createContext(theme.color.first);

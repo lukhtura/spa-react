@@ -4,13 +4,13 @@ import { useContext } from "react";
 import Link from "../Link/Link";
 import { ThemeContext, theme } from "../../_helpers/context/theme";
 //Styles
-import './Footer.css'
+import './Footer.css';
 
 function Footer() {
     const [value, setValue] = useContext(ThemeContext);
     const changeValue = () => {
         setValue(theme.color.second)
-    }
+    };
     return (
         <footer className='footer'>
             <h1 className="logo" onClick={changeValue}>Nikolay Lukhtura</h1>

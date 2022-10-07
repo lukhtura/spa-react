@@ -1,6 +1,9 @@
 //Core
 import { Component } from "react";
 
+//Styles
+import './ErrorBoundary.css'
+
 class ErrorBoundary extends Component {
     constructor(props) {
         super(props)
@@ -17,7 +20,7 @@ class ErrorBoundary extends Component {
         const { hasError } = this.state;
         const { children } = this.props;
         return hasError 
-        ? (<div>Oops! Something went wrong...<button>Refresh</button></div>)
+        ? (<div><span className="error-text">Oops! Something went wrong...</span></div>)
         : children;
     };
 };
