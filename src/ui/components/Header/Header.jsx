@@ -19,7 +19,6 @@ function Header() {
             <ul className="header__list">
                 <li><Link to={routers.about} type="NavLink" color={value}>About</Link></li>
                 <li><Link to={routers.todo} type="NavLink" color={value}>TODO list</Link></li>
-                <li><Link to={routers.login} type="NavLink" color={value}>LoginForm</Link></li>
                 <li><Link to={routers.contacts} type="NavLink" color={value}>Contact me</Link></li>
             </ul>
         </header>

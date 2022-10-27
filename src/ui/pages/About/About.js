@@ -12,10 +12,11 @@ function About() {
                 <p className='about-text'> My name is Nikolay. I'm from Ukraine, but for the last 5 years I'm living in Poland. I'm a cab driver and also a DJ. I have been studying web-development for the last year. So here the list of my Front-Ender skills:</p>
                 <ul className='skills-list'>
                     <li>HTML</li>
-                    <li>CSS</li>
+                    <li>CSS/SCSS</li>
                     <li>JavaScript</li>
-                    <li>WebPack</li>
                     <li>ReactJS</li>
+                    <li>Redux</li>
+                    <li>Git</li>
                 </ul>
             </div>
         </div>
